@@ -7,6 +7,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('leads.urls')),
+    path('', include('frontend.urls')),
 ]
 
 if settings_db_debug.DEBUG:

@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'rest_framework',
     'leads.apps.LeadsConfig',
+    'frontend.apps.FrontendConfig',     # enable the frontend app
 ]
 
 MIDDLEWARE = [
@@ -110,3 +111,9 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = 157286400    # Макс. размер (в байт
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
+}
