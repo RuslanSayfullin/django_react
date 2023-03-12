@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 # passwords
-backend/backend/psw.py
+backend/psw.py
+
+# media
+media/
