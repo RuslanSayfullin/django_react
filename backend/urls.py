@@ -6,7 +6,7 @@ from backend import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('', include('core.urls')),
+    path("api/", include(("core.routers", "core"), namespace="core-api")),
 ]
 
 if settings.DEBUG:
