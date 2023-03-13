@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a1201b-b65e-495f-a1bc-fa1b6aec881c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/django_react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_react.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appmain/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/viewssets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
