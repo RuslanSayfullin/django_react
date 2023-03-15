@@ -26,6 +26,7 @@ router.register(r"user", UserViewSet, basename="user")
 # ##################################################################### #
 
 router.register(r'post', PostViewSet, basename='post')
+
 posts_router = routers.NestedSimpleRouter(router, r'post', lookup='post')
 posts_router.register(r'comment', CommentViewSet, basename='post-comment')
 
