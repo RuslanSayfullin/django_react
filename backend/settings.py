@@ -98,6 +98,7 @@ USE_I18N = True
 
 USE_TZ = False
 
+
 # "Поисковики" статики. Ищет статику в STATICFILES_DIRS.
 STATIC_URL = '/static/'    # URL для шаблонов
 STATICFILES_DIRS = [

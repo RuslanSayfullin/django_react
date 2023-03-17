@@ -7,11 +7,12 @@
     <list default="true" id="e8a1201b-b65e-495f-a1bc-fa1b6aec881c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/comment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/comment/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/post/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/post/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/user/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/settings_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/auth/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/auth/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/comment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/comment/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/post/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/post/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/user/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/tests/test_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;editorconfig.notification&quot;: &quot;lf;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rusl4n/Documents/projects/django_react&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "editorconfig.notification": "lf;",
+    "last_opened_file_path": "/home/rusl4n/Documents/projects/Full-stack-Django-and-React",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/user/tests" />
+      <recent name="$PROJECT_DIR$/core/user/test_models" />
+      <recent name="$PROJECT_DIR$/core/comment/tests" />
+      <recent name="$PROJECT_DIR$/core/post/tests" />
       <recent name="$PROJECT_DIR$/django_react_proj" />
     </key>
   </component>
