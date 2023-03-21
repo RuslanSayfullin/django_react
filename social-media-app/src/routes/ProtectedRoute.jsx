@@ -5,7 +5,8 @@ function ProtectedRoute({ children }) {
     const { user } =
         JSON.parse(localStorage.getItem("auth"));
 
-    return auth.account ? <>{children}</> : <Navigate to="/login/" />;
+    return user.account ? <>{children}</> : <Navigate to="/login/" />;
 }
 
+export default ProtectedRoute;
 

@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a1201b-b65e-495f-a1bc-fa1b6aec881c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media-app/src/components/RegistrationForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media-app/src/helpers/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/helpers/axios.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "editorconfig.notification": "lf;",
-    "last_opened_file_path": "/home/rusl4n/Dropbox/projects/web",
+    "last_opened_file_path": "/home/rusl4n/Documents/projects/django_react",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
