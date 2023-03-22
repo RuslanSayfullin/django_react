@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a1201b-b65e-495f-a1bc-fa1b6aec881c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/social-media-app/src/components/authentication/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/components/authentication/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-media-app/src/components/authentication/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/components/authentication/RegistrationForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-media-app/src/helpers/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/helpers/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-media-app/src/hooks/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/hooks/user.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media-app/src/components/posts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/components/posts/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social-media-app/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-media-app/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-media-app/src/pages/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/pages/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-media-app/src/routes/ProtectedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/src/routes/ProtectedRoute.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/social-media-app/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "editorconfig.notification": "lf;",
-    "last_opened_file_path": "/home/rusl4n/Documents/projects/django_react",
+    "last_opened_file_path": "/home/rusl4n/Dropbox/projects/web",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>

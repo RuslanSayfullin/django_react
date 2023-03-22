@@ -5,7 +5,7 @@ import { randomAvatar } from "../utils";
 import useSWR from "swr";
 import { fetcher } from "../helpers/axios";
 import { getUser } from "../hooks/user.actions";
-import { Post } from "../components/posts/";
+import { Post } from "../components/posts";
 import CreatePost from "../components/posts/CreatePost";
 
 function Home() {

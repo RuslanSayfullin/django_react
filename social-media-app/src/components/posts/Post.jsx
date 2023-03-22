@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { format } from "timeago.js";
 import {
-    LikeFilled,
-    CommentOutlined,
-    LikeOutlined,
-    MoreOutlined,
+  LikeFilled,
+  CommentOutlined,
+  LikeOutlined,
+  MoreOutlined,
 } from "@ant-design/icons";
 import { Image, Card, Dropdown } from "react-bootstrap";
 import { randomAvatar } from "../../utils";
@@ -14,15 +14,16 @@ import UpdatePost from "./UpdatePost";
 import Toaster from "../Toaster";
 
 const MoreToggleIcon = React.forwardRef(({ onClick }, ref) => (
-    <a href="#"
-        ref={ref}
-        onClick={(e) => {
-        e.preventDefault();
-        onClick(e);
-        }}
-    >
-        <MoreOutlined />
-    </a>
+  <a
+    href="#"
+    ref={ref}
+    onClick={(e) => {
+      e.preventDefault();
+      onClick(e);
+    }}
+  >
+    <MoreOutlined />
+  </a>
 ));
 
 function Post(props) {
