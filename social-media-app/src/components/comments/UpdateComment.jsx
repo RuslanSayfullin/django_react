@@ -1,49 +1,50 @@
-
 import React, { useState, useContext } from "react";
-import { Button, Modal, Form } from "react-bootstrap";
+import { Button, Modal, Form, Dropdown } from "react-bootstrap";
 import axiosService from "../../helpers/axios";
-import { getUser } from "../../hooks/user.actions";
+
 import { Context } from "../Layout";
 
-function CreatePost(props) {
-    const { refresh } = props;
+function UpdateComment(props) {
+    const { postId, comment, refresh } = props;
     const [show, setShow] = useState(false);
     const [validated, setValidated] = useState(false);
-    const [form, setForm] = useState({});
+    const [form, setForm] = useState({
+        author: comment.author.id,
+        body: comment.body,
+        post: postId,
+    });
 
     const { setToaster } = useContext(Context);
-
-    const user = getUser();
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const createPostForm = event.currentTarget;
+        const updateCommentForm = event.currentTarget;
 
-        if (createPostForm.checkValidity() === false) {
+        if (updateCommentForm.checkValidity() === false) {
         event.stopPropagation();
         }
 
         setValidated(true);
 
         const data = {
-        author: user.id,
+        author: form.author,
         body: form.body,
+        post: postId,
         };
 
         axiosService
-        .post("/post/", data)
+        .put(`/post/${postId}/comment/${comment.id}/`, data)
         .then(() => {
             handleClose();
             setToaster({
             type: "success",
-            message: "Post created 🚀",
+            message: "Comment updated 🚀",
             show: true,
-            title: "Post Success",
+            title: "Success!",
             });
-            setForm({});
             refresh();
         })
         .catch(() => {
@@ -51,25 +52,18 @@ function CreatePost(props) {
             type: "danger",
             message: "An error occurred.",
             show: true,
-            title: "Post Error",
+            title: "Comment Error",
             });
         });
     };
 
     return (
         <>
-        <Form.Group className="my-3 w-75">
-            <Form.Control
-            className="py-2 rounded-pill border-primary text-primary"
-            type="text"
-            placeholder="Write a post"
-            onClick={handleShow}
-            />
-        </Form.Group>
+        <Dropdown.Item onClick={handleShow}>Modify</Dropdown.Item>
 
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton className="border-0">
-            <Modal.Title>Create Post</Modal.Title>
+            <Modal.Title>Update Post</Modal.Title>
             </Modal.Header>
             <Modal.Body className="border-0">
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -85,12 +79,8 @@ function CreatePost(props) {
             </Form>
             </Modal.Body>
             <Modal.Footer>
-            <Button
-                variant="primary"
-                onClick={handleSubmit}
-                disabled={form.body === undefined}
-            >
-                Post
+            <Button variant="primary" onClick={handleSubmit}>
+                Modify
             </Button>
             </Modal.Footer>
         </Modal>
@@ -98,4 +88,4 @@ function CreatePost(props) {
     );
 }
 
-export default CreatePost;
+export default UpdateComment;
